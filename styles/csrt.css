@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+width: 100%;
+height:45px;
+background-color:#C4C4C4;
+padding: 20px 0;
+}
+
+
+.logoPlace {
+width: 70px;
+height: 70px;
+background-color: red;
+border-radius: 50%;
+}
+
+
+nav img {
+width: 46px;
+position: absolute;
+left: 10px;
+top: 15px;
+}
+
+
+.cartPage{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.cartPageNavLogo {
+width: 70px;
+height: 70px;
+background-color: red;
+position: absolute;
+border-radius: 50%;
+left: 5%;
+top: 4px;
+}
+
+
+.cartPageProduct{
+display: flex;
+flex-wrap: wrap;
+max-width:660px;
+margin-top:115px;
+height: 500px;
+overflow-y: scroll;
+}
+
+
+.cartPageProduct .product{
+width:140px;
+height:140px;
+background-color: #BE4242;
+margin: 10px;
+}
+
+
+.totalNumber, .totalPrice, .totalPurchase{
+display: flex;
+align-items:center;
+}
+
+
+.totalNumberResult, .totalPriceResult, .totalPurchaseResult {
+width: 120px;
+background-color: #d0d0d0;
+height: 45px;
+border-radius: 13px;
+margin-left: 6px;
+}
+
+
+button {
+border-radius: 25px;
+width: 293px;
+height: 55px;
+margin: 15px 0;
+font-size: 22px;
+text-transform: capitalize;
+letter-spacing: 2px;
+font-weight: bold;
+border: 2px solid black;
+cursor: pointer;
+background-color: #C4C4C4;
+}
+
+
+.totalNumberButton button{
+background-color: #C4C4C4 
+}
+
+
+.totalPurchase button{
+background-color:#00D047
+}
+
+
+.cartPageDetailes {
+display: flex;
+flex-direction: column;
+width: 602px;
+align-items: center;
+}
+
+
+@media screen and (max-width: 790px) {
+.cartPage{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.cartPageDetailes {
+    margin-top: 50px;
+}
+.cartPageProduct{
+    border-bottom: 5px solid #00206a;
+}
+} 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/seller.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <!-- add logo here -->
+            <img src="#" alt="LOGO" class="logo">
+        </div>
+        <div class="searchBar">
+            <input type="text" name="searchfield" class="searchfield">
+            <img src="#" alt="icon" class="icon">
+        </div>
+       
+    </nav>
+    
+    <button id="addNewProductBtn">Add new product</button>
+    
+    <form  action="#" id="popUpForm">
+        <div class="formContainer">
+            <label class="item">Product name</label>
+            <input type="text" class="item" id="productName">
+            <label class="item">Category</label>
+            <select name="cars" class="item" id="productCategory">
+                <option value="computers">Computers</option>
+                <option value="electronics">Electronics</option>
+                <option value="home">Home & Kitchen</option>
+                <option value="beauty">Beauty</option>
+                <option value="baby">Baby</option>
+              </select>
+            <label class="item">Details</label>
+            <input type="text" class="item" id="productDetails">
+            <label class="item">Price</label>
+            <input type="text" class="item" id="productPrice">
+            <label class="item">Select image</label>
+            <input type="file" accept="image/*" class="item"><input type="submit" id="productImage">
+            <button class="item btn">Cancel</button>
+            <button class="item btn" id="addBtn">Confirm</button>
+        </div>
+        
+    </form>
+
+    <div class="productContainer"></div>
+    
+    <script src="dom/seller.js"> </script>
+    
+    <script src="dom/seller.js"></script>
+</body>
+</html>
